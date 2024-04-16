@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style for table headers */
+th {
+  background-color: #88bdc4;
+  border: 1px solid #ddd;
+  padding: 2rem;
+  cursor: pointer;
+  color: #fffff4;
+  text-align: left;
+}
+
+/* Alternate row background color */
+tbody tr:nth-child(even) {
+  background-color: #fff3eb;
+}
+
+/* Style for table cells */
+td {
+  border: 1px solid #ddd;
+  padding: 2rem;
+}
+
+/* Style for search input */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for featured column */
+td:last-child {
+  text-align: center;
+}
+
+/* Style for featured flag */
+.featured {
+  color: green;
+  font-weight: bold;
+}
