@@ -1,12 +1,13 @@
-#Please See the video for functionality
+# Please See the video for functionality
 
 https://github.com/shamusketeer/collegeduniyatask/assets/114260803/0a054deb-a4ec-4a40-aaa4-6f868c02f039
 
-##College Table App
+## College Table App
 
 This is a React application that displays a table of colleges along with their details. Users can search for colleges by name, sort the table based on different attributes, and view more colleges as they scroll down the page.
 
-*Features
+### Features
+
   **1. Search Functionality:** Users can search for colleges by their names. As they type in the search input field, the table updates dynamically to show matching colleges.
 
   **2. Sorting:** Users can sort the table based on different attributes such as college ID, name, rating, fees, and user review rating. Clicking on the table header for each attribute sorts the table in ascending order. Clicking again reverses the order.
